@@ -2,8 +2,13 @@ body {
   background-color: #292929;
   margin: 2%;
   text-align: left;
-  width: 70%;
+  width: 90%;
   padding: 1%;
+  border: 2px dashed #808080;
+}
+
+.index {
+    width: 90%;
 }
 
 h1 {
@@ -38,7 +43,6 @@ a:link {
 /* visited link */
 a:visited {
   color: #868686;
-  font-weight: italic;
 }
 
 /* mouse over link */
@@ -54,3 +58,34 @@ a:active {
   text-decoration: underline;
   font-weight: bold;
 }
+
+/* For Larger Screens */
+@media screen and (min-width: 900px) {
+    body {
+        margin: 2%;
+        text-align: left;
+        width: 70%;
+        padding: 1%;
+    }
+
+    .index {
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
