@@ -59,6 +59,18 @@ a:active {
   font-weight: bold;
 }
 
+li {
+  color: #808080;  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+ol {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
 /* For Larger Screens */
 @media screen and (min-width: 900px) {
     body {
