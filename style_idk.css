@@ -1,7 +1,7 @@
 /* For Smaller Screens (Default) */
 body {
   background-color: #292929;
-  margin: 2%;
+  margin: 2% auto;
   text-align: left;
   width: 90%;
   padding: 2%;
